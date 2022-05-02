@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --text_primary: 'Roboto';
+  --text_secondary: 'Poppins';
+  --color_primary: #f8f8f8;
+  --color_text: #29292e;
+  --color_aside: #835afd;
+  --color_border: #a8a8b3;
+  --color_google: #ea4335;
+  --color_buttonS: #835afc;
+}
+
+body, input, button, textarea{
+  font: 400 16px var(--text_primary), sans-serif ;
+}
